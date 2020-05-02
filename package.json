@@ -1,0 +1,20 @@
+{
+  "name": "cucumber-with-protractor",
+  "version": "1.0.0",
+  "description": "sample project",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "test:local:chrome": "protractor e2e/conf/protractor.config.js"
+  },
+  "author": "Vivek kurhe",
+  "license": "ISC",
+  "devDependencies": {
+    "cucumber": "^6.0.5",
+    "protractor-cucumber-framework": "^6.2.1"
+  },
+  "dependencies": {
+    "chai": "^4.2.0",
+    "protractor": "^5.4.4"
+  }
+}
